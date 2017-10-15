@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.edu.tj.wenda.dao.FeedDao">
+    <sql id="table">feed</sql>
+    <sql id="selectFields">id, created_date,user_id, data, type
+    </sql>
+    <select id="selectUserFeeds" resultType="cn.edu.tj.wenda.model.Feed">
+        SELECT
+        <include refid="selectFields"/>
+        FROM
+        <include refid="table"/>
+
+        WHERE id &lt; #{maxId}
+
+        <if test="userIds.size() != 0">
+            AND user_id IN
+            <foreach collection="userIds" index="index" item="item" open="(" separator="," close=")">
+                #{item}
+            </foreach>
+
+        </if>
+        ORDER BY id DESC
+        LIMIT #{count}
+    </select>
+</mapper>
+<!--不需要再mybatis中添加mappers配置，是因为这个xml文件的包名与QuestionDao(Interface)的包名一样-->
