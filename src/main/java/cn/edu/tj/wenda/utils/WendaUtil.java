@@ -11,7 +11,7 @@ import java.util.Map;
  * Created by kang on 2017/10/25.
  */
 public class WendaUtil {
-    private static final Logger logger = LoggerFactory.getLogger(WendaUtil.class);
+     private static final Logger logger = LoggerFactory.getLogger(WendaUtil.class);
 
     public static int ANONYMOUS_USERID = 3;
     public static int SYSTEM_USERID = 4;
