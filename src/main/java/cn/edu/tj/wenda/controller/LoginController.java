@@ -30,7 +30,7 @@ public class LoginController {
     @Autowired
     EventProducer eventProducer;
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(LoginController.class);
+     private static final Logger LOGGER = LoggerFactory.getLogger(LoginController.class);
 
     @RequestMapping(path = "/reg/",method = RequestMethod.POST)
     public String reg(Model model,
