@@ -4,7 +4,7 @@ import cn.edu.tj.wenda.model.LoginTicket;
 import org.apache.ibatis.annotations.*;
 
 /**
- * Created by mao on 2017/5/22.
+ * Created by kang on 2017/10/25.
  */
 @Mapper
 public interface LoginTicketDao {
