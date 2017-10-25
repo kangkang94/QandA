@@ -10,12 +10,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Created by kang on 2017/10/25.
+ * Created by  kang on 2017/10/25.
  */
 @Component
 public class LoginRequredInterceptor implements HandlerInterceptor {
-    @Autowired
-    HostHolder hostHolder;
+     @Autowired
+     HostHolder hostHolder;
 
 
     @Override

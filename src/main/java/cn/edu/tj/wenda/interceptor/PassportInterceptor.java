@@ -20,8 +20,8 @@ import java.util.Date;
  */
 @Component
 public class PassportInterceptor implements HandlerInterceptor{
-    @Autowired
-    HostHolder hostHolder;
+     @Autowired
+     HostHolder hostHolder;
     @Autowired
     LoginTicketDao loginTicketDao;
     @Autowired

@@ -16,8 +16,8 @@ import java.util.*;
  */
 @Service
 public class UserService {
-    @Autowired
-    UserDao userDao;
+     @Autowired
+     UserDao userDao;
 
     @Autowired
     LoginTicketDao loginTicketDao;

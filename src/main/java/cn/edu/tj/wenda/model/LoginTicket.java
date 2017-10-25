@@ -5,11 +5,11 @@ import java.util.Date;
  * Created by kang on 2017/10/25.
  */
 public class LoginTicket {
-    private int id;
-    private int userId;
-    private Date expired;
-    private int status;
-    private String ticket;
+     private int id;
+     private int userId;
+     private Date expired;
+     private int status;
+     private String ticket;
 
     public int getId() {
         return id;
