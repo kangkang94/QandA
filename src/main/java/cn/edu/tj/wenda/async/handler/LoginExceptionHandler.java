@@ -18,7 +18,7 @@ import java.util.Map;
 @Component
 public class LoginExceptionHandler implements EventHandler{
     @Autowired
-    MailSender mailSender;
+     MailSender mailSender;
 
     @Override
     public void doHandle(EventModel model) {

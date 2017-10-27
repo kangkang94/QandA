@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 public class EventProducer {
 
     @Autowired
-    JedisAdapter jedisAdapter;
+     JedisAdapter jedisAdapter;
 
     public boolean fireEvent(EventModel model){
         try {

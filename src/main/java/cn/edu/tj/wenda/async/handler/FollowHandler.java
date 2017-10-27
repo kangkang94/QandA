@@ -21,7 +21,7 @@ import java.util.List;
  */
 @Component
 public class FollowHandler implements EventHandler{
-    @Autowired
+     @Autowired
     MessageService messageService;
     @Autowired
     UserService userService;

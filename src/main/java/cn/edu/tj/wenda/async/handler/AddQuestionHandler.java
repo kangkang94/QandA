@@ -17,7 +17,7 @@ import java.util.List;
  */
 @Component
 public class AddQuestionHandler implements EventHandler{
-    private static final Logger LOGGER = LoggerFactory.getLogger(AddQuestionHandler.class);
+     private static final Logger LOGGER = LoggerFactory.getLogger(AddQuestionHandler.class);
     @Autowired
     SearchService searchService;
 

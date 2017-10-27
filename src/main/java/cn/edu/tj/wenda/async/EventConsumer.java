@@ -24,7 +24,7 @@ import java.util.Map;
  */
 @Service
 public class EventConsumer implements InitializingBean,ApplicationContextAware{
-    private static final Logger LOGGER = LoggerFactory.getLogger(EventConsumer.class);
+     private static final Logger LOGGER = LoggerFactory.getLogger(EventConsumer.class);
     private ApplicationContext applicationContext;
     private Map<EventType,List<EventHandler>> config = new HashMap<>();
 

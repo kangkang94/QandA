@@ -22,8 +22,8 @@ import java.util.List;
 @Component
 public class LikeHandler implements EventHandler{
     @Autowired
-    MessageService messageService;
-    @Autowired
+     MessageService messageService;
+     @Autowired
     UserService userService;
 
     @Autowired

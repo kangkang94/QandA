@@ -15,11 +15,11 @@ import org.springframework.stereotype.Component;
 import java.util.*;
 
 /**
- * Created by mao on 2017/10/15.
+ * Created by kang on 2017/10/27.
  */
 @Component
 public class FeedHandler implements EventHandler{
-    @Autowired
+     @Autowired
     FeedService feedService;
     @Autowired
     UserService userService;
