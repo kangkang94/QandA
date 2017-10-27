@@ -5,7 +5,7 @@ package cn.edu.tj.wenda.async;
  */
 public enum EventType {
      LIKE(0),
-    COMMENT(1),
+     COMMENT(1),
     LOGIN(2),
     MAIL(3),
     FOLLOW(4),
