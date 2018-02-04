@@ -4,11 +4,11 @@ package cn.edu.tj.wenda.model;
  * Created by kang on 2017/10/25.
  */
 public class User {
-    private int id;
-    private String  name;
-    private String password;
-    private String salt;
-    private String headUrl;
+     private int id;
+     private String  name;
+     private String password;
+     private String salt;
+     private String headUrl;
 
     public User() {
     }

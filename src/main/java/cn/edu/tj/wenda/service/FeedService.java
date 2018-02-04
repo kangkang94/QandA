@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 /**
- * Created by mao on 2017/10/15.
+ * Created by kang on 2017/11/23.
  */
 @Service
 public class FeedService {
